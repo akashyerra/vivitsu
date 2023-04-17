@@ -27,9 +27,14 @@ img{
     padding: 0;
 }
 
+#aboutUs h1{
+    margin-top: 100px;
+}
+
 #aboutUs .heading img{
     width: 70px;
     margin-right: 20px;
+    border-radius: 50%;
 }
 
 #aboutUs>div{
@@ -71,4 +76,20 @@ img{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+#aboutUs #community .organiser .profile{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#aboutUs #community .organiser .profile img{
+    width: 200px;
+    filter: grayscale(1);
+    transition: all 0.5s ease;
+}
+
+#aboutUs #community .organiser .profile img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
 }

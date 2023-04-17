@@ -128,7 +128,7 @@ div.card div.card-title a.toggle-info span.left {
   transform: rotate(45deg);
 }
 div.card div.card-title a.toggle-info span.right {
-  left: 14px;
+  left: -16px;
   transform: rotate(-45deg);
 }
 
@@ -203,7 +203,7 @@ div.card.show div.card-title a.toggle-info span.left {
   right: 10px;
 }
 div.card.show div.card-title a.toggle-info span.right {
-  left: 10px;
+  left: -20px;
 }
 div.card.show div.card-flap {
   background: #ffffff;

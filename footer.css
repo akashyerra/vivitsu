@@ -6,6 +6,11 @@ a {
   color: #fff;
   text-decoration: none;
 }
+
+svg path{
+  fill: white;
+}
+
 .pg-footer {
   font-family: "Roboto", sans-serif;
 }
