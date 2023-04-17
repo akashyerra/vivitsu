@@ -13,4 +13,18 @@
   	position: absolute;
   	top: 0px;
   	z-index:1;
+	display: none;
 }
+
+
+/* @media (min-width: 985px) and (max-width: 1401px){
+	div.cards{
+	 grid-template-columns: repeat(2, 1fr);
+	} 
+   } */
+  
+  @media (min-width: 985px){
+   #particles-js{
+	display: block;
+   }
+  }
