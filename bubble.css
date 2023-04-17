@@ -12,6 +12,7 @@ body {
     position: fixed;
     height: 100vh;
     width: 100%;
+    z-index: 2;
 }
 
 /* OBJECTS */
@@ -59,11 +60,6 @@ body {
     position: absolute;
     width: 180px;
 }
-
-.bubble img{
-    border-radius : 10vh;
-}
-
 /* ANIMATIONS */
 
 .x1 {
@@ -84,9 +80,9 @@ body {
     left: 5%;
     top: 80%;
     
-    -webkit-transform: scale(0.4);
-    -moz-transform: scale(0.4);
-    transform: scale(0.4);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 .x3 {
@@ -110,9 +106,9 @@ body {
     left: 20%;
     top: 0;
     
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
 }
 
 .x5 {
@@ -123,9 +119,9 @@ body {
     left: 30%;
     top: 50%;
     
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    transform: scale(0.5);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
 }
 
 .x6 {
@@ -149,9 +145,9 @@ body {
     left: 65%;
     top: 70%;
     
-    -webkit-transform: scale(0.4);
-    -moz-transform: scale(0.4);
-    transform: scale(0.4);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
 }
 
 .x8 {
@@ -162,9 +158,9 @@ body {
     left: 80%;
     top: 10%;
     
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
 }
 
 .x9 {
@@ -175,9 +171,9 @@ body {
     left: 90%;
     top: 50%;
     
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    transform: scale(0.6);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
 }
 
 .x10 {
@@ -188,9 +184,9 @@ body {
     left: 80%;
     top: 80%;
     
-    -webkit-transform: scale(0.3);
-    -moz-transform: scale(0.3);
-    transform: scale(0.3);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
 }
 
 /* KEYFRAMES */

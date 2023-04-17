@@ -83,7 +83,7 @@ section #main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(255, 234, 254);
+    /* background-color: rgb(255, 234, 254); */
     position: relative;
 }
 
@@ -99,8 +99,8 @@ section #main .span{
 }
 
 section #main .tagline{
-    font-size: 3rem;
-    line-height: 16rem;
+    font-size: 2rem;
+    line-height: 14rem;
     display: block;
     height: 250px;
 }
@@ -169,7 +169,7 @@ section #main .rock2{
 }
 
 #highlights h1{
-    margin: 50px 0px;
+    margin: 80px 0px 20px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* transform: skewY(4deg); */
 }
@@ -362,43 +362,4 @@ hr{
     transition-timing-function: linear;
     transition-delay: 1s;
   } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="faqs.css">
     <link rel="stylesheet" href="cursor.css">
     <link rel="stylesheet" href="dynamicText.css">
+    <link rel="stylesheet" href="particle.css">
     <script defer src="bubble.js"></script>
     <script defer src="faqs.js"></script>
     <script defer src="cursor.js"></script>
     <script defer src="dynamicText.js"></script>
+    <script defer src="particle.js"></script>
     <!-- <link rel="stylesheet" href="card.css"> -->
     <link rel="stylesheet" href="footer.css">
     <!-- <link rel="stylesheet" href="cardsLess.less"> -->
@@ -39,9 +41,13 @@
     </header>
     <section>
         <div id="main">
+            <div id="particles-js"></div>
             <div class="span">Team FSW Presents</div>
-            <div class="title">VIVITSU</div>
-            <div class="tagline">Tagline</div>
+            <div class="title">
+                <h2>VIVITSU</h2>
+                <h2>VIVITSU</h2>
+            </div>
+            <div class="tagline"></div>
             <!-- <img src="images/images/rocket.png" alt="" class=".rocket"> -->
             <!-- <img src="images/sun1.png" alt="" class="sun"> -->
             <!-- <img src="images/forest1.png" alt="" class="forest"> -->
@@ -50,19 +56,18 @@
             <!-- <img src="images/rock1.png" alt="" class="rock2"> -->
             <!-- <img src="images/sea-17847.png" alt="" class="sea"> -->
 
-                
+            
             <div id="background-wrap">
-
-            <div class="bubble x1"><img src="images/web.jpg" alt="" width="80%" height="80%"></div>
-            <div class="bubble x2"><img src="images/web.png" alt="" width="80%" height="80%"></div>
-            <div class="bubble x3"><img src="images/cyber_security.jpg" alt="" width="80%" height="80%"></div>
-            <div class="bubble x4"><img src="images/ml.jpg" alt="" width="80%" height="80%"></div>
-            <div class="bubble x5"><img src="images/app.jpg" alt="" width="80%" height="80%"></div>
-            <div class="bubble x6"><img src="images/web.jpg" alt="" width="80%" height="80%"></div>
-            <div class="bubble x7"><img src="images/web.png" alt="" width="80%" height="80%"></div>
-            <div class="bubble x8"><img src="images/cyber_security.jpg" alt="" width="80%" height="80%"></div>
-            <div class="bubble x9"><img src="images/ml.jpg" alt="" width="80%" height="80%"></div>
-            <div class="bubble x10"><img src="images/app.jpg" alt="" width="80%" height="80%"></div>
+                <!-- <div class="bubble x1"><img src="images/logo.png" alt="" width="60%" height="60%"></div> -->
+                <div class="bubble x2"><img src="images/logo.png" alt="" width="60%" height="60%"></div>
+                <!-- <div class="bubble x3"><img src="images/logo.png" alt="" width="60%" height="60%"></div> -->
+                <div class="bubble x4"><img src="images/logo.png" alt="" width="60%" height="60%"></div>
+                <!-- <div class="bubble x5"><img src="images/logo.png" alt="" width="60%" height="60%"></div> -->
+                <div class="bubble x6"><img src="images/logo.png" alt="" width="60%" height="60%"></div>
+                <!-- <div class="bubble x7"><img src="images/logo.png" alt="" width="60%" height="60%"></div> -->
+                <div class="bubble x8"><img src="images/logo.png" alt="" width="60%" height="60%"></div>
+                <!-- <div class="bubble x9"><img src="images/logo.png" alt="" width="60%" height="60%"></div> -->
+                <div class="bubble x10"><img src="images/logo.png" alt="" width="60%" height="60%"></div>
             </div>
 
         </div>
@@ -74,15 +79,15 @@
                     <h3>24 Hour Hackathon</h3>
                 </li>
                 <li>
-                    <img src="images/2.png" alt="">
+                    <img src="images/3.png" alt="">
                     <h3>Open Source Softwares</h3>
                 </li>
                 <li>
-                    <img src="images/4.png" alt="">
+                    <img src="images/2.png" alt="">
                     <h3>Food and WiFi</h3>
                 </li>
                 <li>
-                    <img src="images/3.png" alt="">
+                    <img src="images/4.png" alt="">
                     <h3>Hangout with friends</h3>
                 </li>
                 <li>
@@ -110,8 +115,8 @@
         <!-- <hr> -->
         <div id="problem-statements">
             <h1>PROBLEM STATEMENTS</h1>
-            <div id="c" class="cards">
-                <div id="c1" class="card">
+            <div class="cards">
+                <div class="card">
                     <div class="card__image-holder">
                         <img class="card__image" src="images/p1.png" alt="wave" />
                     </div>
@@ -123,7 +128,8 @@
                         <h2>
                             Healthy Diet Application
                             <br>
-                            <small>Web / App Development</small>
+                            <small>Web Development</small>
+                            <small>App Development</small>
                         </h2>
                     </div>
                     <div class="card-flap flap1">
@@ -133,7 +139,7 @@
                     </div>
                 </div>
 
-                <div id="c2" class="card">
+                <div class="card">
                     <div class="card__image-holder">
                         <img class="card__image" src="images/p2.jpg" alt="beach" />
                     </div>
@@ -145,7 +151,8 @@
                         <h2>
                             Travel Assistance Chatbot
                             <br>
-                            <small>AI-ML</small>
+                            <small>Web Development</small>
+                            <small>App Development</small>
                         </h2>
                     </div>
                     <div class="card-flap flap1">
@@ -155,7 +162,7 @@
                     </div>
                 </div>
             
-                <div id="c3" class="card">
+                <div class="card">
                 <div class="card__image-holder">
                     <img class="card__image" src="images/p3.jpg" alt="mountain" />
                 </div>
@@ -167,7 +174,8 @@
                     <h2>
                         Platform that connects language learners with native speakers
                         <br>
-                        <small>Web / App Development</small>
+                        <small>Web Development</small>
+                        <small>App Development</small>
                     </h2>
                 </div>
                 <div class="card-flap flap1">
@@ -177,7 +185,7 @@
                 </div>
                 </div>
             
-                <div id="c4" class="card">
+                <div class="card">
                 <div class="card__image-holder">
                     <img class="card__image" src="images/p4.webp" alt="field" />
                 </div>
@@ -189,7 +197,8 @@
                     <h2>
                         Gamification of learning.
                         <br>
-                        <small>Web / App Development</small>
+                        <small>Web Development</small>
+                        <small>App Development</small>
                     </h2>
                 </div>
                 <div class="card-flap flap1">
@@ -199,7 +208,7 @@
                 </div>
                 </div>
             
-                <div id="c5" class="card">
+                <div class="card">
                 <div class="card__image-holder">
                     <img class="card__image" src="images/p5.webp" alt="water" />
                 </div>
@@ -211,8 +220,8 @@
                     <h2>
                         E-commerce products aggregator application
                         <br>
-                        <small>Web / App Development</small>
-                        <!-- <small>App Development</small> -->
+                        <small>Web Development</small>
+                        <small>App Development</small>
                     </h2>
                 </div>
                 <div class="card-flap flap1">
@@ -222,7 +231,7 @@
                 </div>
                 </div>
             
-                <div id="c6" class="card">
+                <div class="card">
                 <div class="card__image-holder">
                     <img class="card__image" src="images/p6.jpg" alt="river" />
                 </div>
@@ -234,7 +243,8 @@
                     <h2>
                         Fake product detection system
                         <br>
-                        <small>AI-ML</small>
+                        <small>Web Development</small>
+                        <small>App Development</small>
                     </h2>
                 </div>
                 <div class="card-flap flap1">
@@ -244,7 +254,7 @@
                 </div>
                 </div>
             
-                <div id="c7" class="card">
+                <div class="card">
                 <div class="card__image-holder">
                     <img class="card__image" src="images/p7.jpg" alt="kite" />
                 </div>
@@ -256,7 +266,8 @@
                     <h2>
                         A Network Scanning Tool
                         <br>
-                        <small>Cyber Security</small>
+                        <small>Web Development</small>
+                        <small>App Development</small>
                     </h2>
                 </div>
                 <div class="card-flap flap1">
@@ -266,7 +277,7 @@
                 </div>
                 </div>
                 
-                <div id="c8" class="card">
+                <div class="card">
                 <div class="card__image-holder">
                     <img class="card__image" src="images/p8.png" alt="underwater" />
                 </div>
@@ -278,17 +289,13 @@
                     <h2>
                         Student Innovation
                         <br>
-                        <small>Web / App  Development</small>
-                        <small>AI-ML</small>
-                        <small>IOT</small>
-
+                        <small>Web Development</small>
+                        <small>App Development</small>
                     </h2>
                 </div>
                 <div class="card-flap flap1">
                     <div class="card-description">
-                    
-                    Students can choose any one of the the following domain and can come up with there own idea each domian has one winner.
-
+                    This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
                     </div>
                 </div>
                 </div>        
@@ -481,34 +488,34 @@
             <h2 class="footer-menu-name"> Problem Statements</h2>
             <ul id="menu-company" class="footer-menu-list">
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c1">Problem Statement-1</a>
+                <a href="#">Problem Statement-1</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c2">Problem Statement-2</a>
+                <a href="#">Problem Statement-2</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c3">Problem Statement-3</a>
+                <a href="#">Problem Statement-3</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c4">Problem Statement-4</a>
+                <a href="#">Problem Statement-4</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c5">Problem Statement-5</a>
+                <a href="#">Problem Statement-5</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c6">Problem Statement-6</a>
+                <a href="#">Problem Statement-6</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c7">Problem Statement-7</a>
+                <a href="#">Problem Statement-7</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c8">Problem Statement-8</a>
+                <a href="#">Problem Statement-8</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c8">Problem Statement-9</a>
+                <a href="#">Problem Statement-9</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#c8">Problem Statement-10</a>
+                <a href="#">Problem Statement-10</a>
                 </li>
                 </li>
             </ul>
@@ -530,21 +537,21 @@
             <h2 class="footer-menu-name"> Quick Links</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                <a  href="#c">Problem Statements</a>
+                <a target="_blank" rel="noopener noreferrer" href="#">Problem Statements</a>
                 </li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                <a href="#highlights">Event Highlights</a>
+                <a target="_blank" rel="noopener noreferrer" href="#">Event Highlights</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#sponsors">Sposers</a>
+                <a href="#">Sposers</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="about.html">About Us</a>
+                <a href="#">About Us</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                <a href="#faqs">FAQs</a></li>
+                <a href="#">FAQs</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="https://unstop.com/o/qTPjOK9?lb=2ZvsJH5">Register</a>
+                <a href="#">Register</a>
                 </li>
             </ul>
             </div>
@@ -560,10 +567,7 @@
             <div class="footer-call-to-action">
                 <p class="footer-call-to-action-description"> Have any queries?</p>
                 <h2 class="footer-call-to-action-title">Contact Us</h2>
-                <p class="footer-call-to-action-link-wrapper"> 
-                    Hansikaa-9603084780<br>
-                    Ketan-9032860125<br>
-                </p>
+                <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> 0124-64XXXX </a></p>
             </div>
         </div>
         <div class="footer-social-links"> <svg class="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">
