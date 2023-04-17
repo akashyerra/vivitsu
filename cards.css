@@ -86,10 +86,16 @@ div.card img {
   height: 250px;
 }
 
+#ps1 img{
+  width: 450px;
+  height: 380px;
+}
+
 div.card .card__image-holder {
   background: rgba(0, 0, 0, 0.1);
   width: 450px;
   height: 250px;
+  overflow: hidden;
   /* height: 0; */
   /* padding-bottom: 75%; */
 }
