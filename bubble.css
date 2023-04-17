@@ -59,6 +59,11 @@ body {
     position: absolute;
     width: 180px;
 }
+
+.bubble img{
+    border-radius : 10vh;
+}
+
 /* ANIMATIONS */
 
 .x1 {
