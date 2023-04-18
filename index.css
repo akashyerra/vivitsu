@@ -316,13 +316,16 @@ hr{
 }
 
 #sponsors ul li{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke;
     margin: 30px;
-    border-radius: 40px;
+    border-radius: 40px; */
 }
 
 #sponsors ul li img{
-    width: 10rem;
+    width: 15rem;
+    height: 10rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
 }
   
   /* #faqs{
