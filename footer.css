@@ -178,7 +178,7 @@ svg path{
   left: 0;
   display: block;
   position: absolute;
-  top: 0;
+  top: 1px;
   width: 236px;
 }
 
@@ -229,7 +229,7 @@ svg path{
   width: 28px;
 }
 
-.footer-social-link.youtube {
+.footer-social-link.mail {
   height: 24px;
   left: 123px;
   top: 12px;
