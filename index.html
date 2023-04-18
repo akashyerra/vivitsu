@@ -26,6 +26,14 @@
     <script src="card.js"></script>
     
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+
+    
+    <script defer src="viewerCount.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        updateViewerCount();
+      });
+    </script>
 </head>
 <body>
     <div id="loader">
@@ -347,7 +355,7 @@
         <div id="sponsors">
             <h1>OUR SPONSORS</h1>
             <ul>
-                <li><img src="images/monster-energy-drink-logo.jpg" alt=""></li>
+                <li><img src="images/monster_energy.png" alt="" style="background-color: black;"></li>
                 <li><img src="images/FTCCI.jpg" alt=""></li>
                 <li><img src="images/axis.jpg" alt=""></li>
                 <li><img src="images/" alt=""></li>
@@ -564,6 +572,7 @@
                 <a href="./index.html#faqs">FAQs</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="https://unstop.com/o/qTPjOK9?lb=2ZvsJH5">Register</a>
+                <p>Current viewer count: <span id="viewer-count"></span></p>
                 </li>
             </ul>
             </div>
