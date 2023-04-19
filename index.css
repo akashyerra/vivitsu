@@ -20,6 +20,7 @@ h1{
 
 #header{
     width: 100%;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,11 +28,24 @@ h1{
     background-color: black;
 }
 
-#header .logo{
+#header img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+#header .griet-logo{
+    margin-right: 30px;
+}
+
+#header .fsw-logo{
+    margin-left: 30px;
+}
+
+/* #header .logo{
     margin-left: 40px;
     font-size: 30px;
     cursor: none;
-}
+} */
 
 #header ul{
     display: flex;
@@ -168,6 +182,30 @@ section #main .rock2{
     top: -20px;
 }
 
+.highlights-button{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+    opacity: 0.6;
+    font-weight: bolder;
+    transition: all ease-in-out 0.2s;
+    /* float: left; */
+}
+
+.highlights-button:hover{
+    opacity: 1;
+}
+
+.highlights-button a{
+    border: 2px solid none;
+    background-color: rgb(8, 84, 155);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 3rem;
+}
+
 #highlights h1{
     margin: 80px 0px 20px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -179,7 +217,7 @@ section #main .rock2{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0px 10px 50px 10px;
+    margin: 0px 10px 0px 10px;
     /* transform: skewY(4deg); */
 }
 
@@ -230,6 +268,7 @@ hr{
     border-radius: 6rem;
     margin: 50px auto;
     padding: 60px 0px;
+    padding-bottom: 0px;
     /* background-color: rgb(255, 107, 107); */
     /* transform: skewY(-2deg); */
 
@@ -293,7 +332,19 @@ hr{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 0px;
+    width: 100%;
 }
+
+#sponsors .other-sponsors .associate-sponsors ul img{
+    width: 10rem;
+    height: 6rem;
+}
+
+/* #sponsors .other-sponsors .associate-sponsors ul li{
+    display: flex;
+    align-items: center;
+} */
 
 /* #sponsors{
     width: 100%;
