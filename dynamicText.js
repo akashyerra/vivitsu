@@ -1,5 +1,5 @@
 // var words = ['Versatile', 'Innovation', 'Inspiring', 'Imagination', 'Perseverence', 'Knowledge']
-var words = ['Web Development', 'App Development', 'Cyber Security', 'Machine Learning', 'Deep Learning', 'Cloud Computing'],
+var words = ['24 Hour Hackathon', 'Web Development', 'App Development', 'Cyber Security', 'Machine Learning', 'Deep Learning', 'Cloud Computing'],
     part,
     i = 0,
     offset = 0,

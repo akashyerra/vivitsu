@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="dynamicText.css">
     <link rel="stylesheet" href="particle.css">
     <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="flip.css">
     <!-- <link rel="stylesheet" href="loader.css"> -->
     <script defer src="bubble.js"></script>
     <script defer src="faqs.js"></script>
     <script defer src="cursor.js"></script>
     <script defer src="dynamicText.js"></script>
     <script defer src="particle.js"></script>
+    <script src="flip.js"></script>
     <!-- <script defer src="loader.js"></script> -->
     <!-- <link rel="stylesheet" href="card.css"> -->
     <link rel="stylesheet" href="footer.css">
@@ -27,7 +29,7 @@
     
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
 
-    <script defer src="viewerCount.js"></script>
+    <!-- <script defer src="viewerCount.js"></script> -->
 </head>
 <body>
     <div id="loader">
@@ -101,39 +103,116 @@
             <h1>EVENT HIGHLIGHTS</h1>
             <ul>
                 <li>
-                    <img src="images/highlight1.png" alt="">
+                    <div class="flip">
+                        <div class="flip-inner">
+                          <div class="front">
+                            <img class="thumbnail" src="./images/highlight1.png" alt="">
+                          </div>
+                          <div class="back">
+                            <img class="thumbnail thumbnail-hover" src="./images/highlight1.png" alt="">
+                          </div>
+                        </div>
+                    </div>
                     <h3>24 Hour Hackathon</h3>
                 </li>
                 <li>
-                    <img src="images/highlight3.png" alt="">
+                    <div class="flip">
+                        <div class="flip-inner">
+                          <div class="front">
+                            <img class="thumbnail" src="./images/highlight3.png" alt="">
+                          </div>
+                          <div class="back">
+                            <img class="thumbnail thumbnail-hover" src="./images/highlight3.png" alt="">
+                          </div>
+                        </div>
+                    </div>
                     <h3>Open Source Softwares</h3>
                 </li>
                 <li>
-                    <img src="images/highlight2.png" alt="">
+                    <div class="flip">
+                        <div class="flip-inner">
+                          <div class="front">
+                            <img class="thumbnail" src="./images/highlight2.png" alt="">
+                          </div>
+                          <div class="back">
+                            <img class="thumbnail thumbnail-hover" src="./images/highlight2.png" alt="">
+                          </div>
+                        </div>
+                    </div>
                     <h3>Food and WiFi</h3>
                 </li>
                 <li>
-                    <img src="images/highlight4.png" alt="">
+                    <div class="flip">
+                        <div class="flip-inner">
+                          <div class="front">
+                            <img class="thumbnail" src="./images/highlight4.png" alt="">
+                          </div>
+                          <div class="back">
+                            <img class="thumbnail thumbnail-hover" src="./images/highlight4.png" alt="">
+                          </div>
+                        </div>
+                    </div>
                     <h3>Hangout with friends</h3>
                 </li>
                 <li>
-                    <img src="images/highlight5.png" alt="">
+                    <div class="flip">
+                        <div class="flip-inner">
+                          <div class="front">
+                            <img class="thumbnail" src="./images/highlight5.png" alt="">
+                          </div>
+                          <div class="back">
+                            <img class="thumbnail thumbnail-hover" src="./images/highlight5.png" alt="">
+                          </div>
+                        </div>
+                    </div>
                     <h3>Increase Your Network</h3>
                 </li>
                 <li>
-                    <img src="images/highlight6.png" alt="">
+                    <div class="flip">
+                        <div class="flip-inner">
+                          <div class="front">
+                            <img class="thumbnail" src="./images/highlight6.png" alt="">
+                          </div>
+                          <div class="back">
+                            <img class="thumbnail thumbnail-hover" src="./images/highlight6.png" alt="">
+                          </div>
+                        </div>
+                    </div>
                     <h3>Music and Dance Performance</h3>
                 </li>
                 <li>
-                    <img src="images/highlight7.png" alt="">
+                    <div class="flip">
+                        <div class="flip-inner">
+                          <div class="front">
+                            <img class="thumbnail" src="./images/highlight7.png" alt="">
+                          </div>
+                          <div class="back">
+                            <img class="thumbnail thumbnail-hover" src="./images/highlight7.png" alt="">
+                          </div>
+                        </div>
+                    </div>
                     <h3>Fun Activites</h3>
                 </li>
                 <!-- <li>
-                    <img src="images/highlightdolphin1.png" alt="">
+                    <div class="coin">
+                        <div class="side-a">
+                            <img src="./images/highlight1.png" alt="">
+                        </div>
+                        <div class="side-b">
+                            <img src="./images/highlight1.png" alt="">
+                        </div>
+                    </div>
                     <h3>Highlight-7</h3>
                 </li>
                 <li>
-                    <img src="images/highlightdolphin1.png" alt="">
+                    <div class="coin">
+                        <div class="side-a">
+                            <img src="./images/highlight1.png" alt="">
+                        </div>
+                        <div class="side-b">
+                            <img src="./images/highlight1.png" alt="">
+                        </div>
+                    </div>
                     <h3>Highlight-8</h3>
                 </li> -->
             </ul>
@@ -336,7 +415,7 @@
                     <img src="images/dolphin1.png" alt="">
                 </div>
                 <div class="associate-sponsors">
-                    <h1>ASSOCIATE SPONSORS</h1>
+                    <h2>ASSOCIATE SPONSORS</h2>
                     <ul>
                         <li><img src="images/dolphin1.png" alt=""></li>
                         <li><img src="images/dolphin1.png" alt=""></li>
@@ -347,13 +426,29 @@
             </div>
         </div> -->
         <div id="sponsors">
-            <h1>OUR SPONSORS</h1>
-            <ul>
-                <li><img src="images/monster_energy.png" alt="" style="background-color: black;"></li>
-                <li><img src="images/FTCCI.jpg" alt=""></li>
-                <li><img src="images/" alt=""></li>
-                <li><img src="images/axis.png" alt="" style="background-color: white;"></li>
-            </ul>
+            <div class="title-sponsor">
+                <h2>TITLE SPONSOR</h2>
+                <img src="images/" alt="">
+            </div>
+            <div class="other-sponsors">
+                <div class="energy-sponsors">
+                    <h2>ENERGY SPONSORS</h2>
+                    <img src="images/monster_energy.png" alt="" style="background-color: black;">
+                </div>
+                <div class="collaboration">
+                    <h2>COLLABORATION WITH</h2>
+                    <img src="images/FTCCI.jpg" alt="">
+                </div>
+                <div class="associate-sponsors">
+                    <h2>ASSOCIATE SPONSORS</h2>
+                    <ul>
+                        <li><img src="images/axis.png" alt="" style="background-color: white;"></li>
+                        <li><img src="images/axis.png" alt="" style="background-color: white;"></li>
+                        <li><img src="images/axis.png" alt="" style="background-color: white;"></li>
+                        <li><img src="images/axis.png" alt="" style="background-color: white;"></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!-- <hr>  -->
             <div id="faqs">
@@ -551,13 +646,13 @@
             <h2 class="footer-menu-name">Quick Links</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                <a target="_blank" rel="noopener noreferrer" href="./index.html#problem-statements">Problem Statements</a>
+                    <a target="_blank" rel="noopener noreferrer" href="./index.html#problem-statements">Problem Statements</a>
                 </li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                <a target="_blank" rel="noopener noreferrer" href="./index.html#highlights">Event Highlights</a>
+                    <a target="_blank" rel="noopener noreferrer" href="./index.html#highlights">Event Highlights</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="./index.html#sponsors">Sponsors</a>
+                    <a href="./index.html#sponsors">Sponsors</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="./about.html">About Us</a>

@@ -1,0 +1,34 @@
+.flip {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.flip:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.flip .flip-inner {
+  transform-style: preserve-3d;
+  transition: transform .8s ease;
+  height: 100%;
+  width: 100%;
+}
+.flip .flip-inner .front,
+.flip .flip-inner .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.flip .flip-inner .front {
+  transform: translateZ(1px);
+}
+.flip .flip-inner .back {
+  transform: rotateY(180deg);
+}
+.flip .flip-inner .thumbnail {
+  width: 100%;
+}
