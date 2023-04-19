@@ -38,12 +38,15 @@ h1{
     background-color: white;
     padding: 5px;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 #header .griet-logo img{
     width: 65px;
     position: relative;
-    top: 3px;
+    top: -7px;
+    right: 11px;
 }
 
 #header .fsw-logo{
