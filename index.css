@@ -196,9 +196,7 @@ section #main .rock2{
 
 .highlights-button{
     cursor: pointer;
-    width: 100%;
-    display: flex;
-    justify-content: end;
+    float: right;
     margin-bottom: 50px;
     opacity: 0.6;
     font-weight: bolder;
@@ -254,6 +252,7 @@ section #main .rock2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    clear: both;
 }
 
 hr{
@@ -287,6 +286,10 @@ hr{
     /* background-color: aqua;*/
 }
 
+#sponsors h2{
+    text-align: center;
+}
+
 #sponsors .title-sponsor, .energy-sponsors,.collaboration, .associate-sponsors{
     display: flex;
     flex-direction: column;
@@ -297,11 +300,7 @@ hr{
 }
 
 #sponsors .title-sponsor img{
-    width: 250px;
-    height: 250px;
-    /* border-radius: 50%; */
     margin-bottom: 30px;
-    background-color: black;
 }
 
 #sponsors img{
@@ -351,6 +350,10 @@ hr{
 #sponsors .other-sponsors .associate-sponsors ul img{
     width: 10rem;
     height: 6rem;
+}
+
+#sponsors .other-sponsors .associate-sponsors ul img.reliance{
+    border-radius: 0;
 }
 
 /* #sponsors .other-sponsors .associate-sponsors ul li{
