@@ -356,6 +356,10 @@ hr{
     border-radius: 0;
 }
 
+#sponsors .other-sponsors .associate-sponsors ul img.suntek{
+    width: 16rem;
+}
+
 /* #sponsors .other-sponsors .associate-sponsors ul li{
     display: flex;
     align-items: center;
