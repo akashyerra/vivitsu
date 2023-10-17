@@ -28,7 +28,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
     color: white;
-    background: #6225E6;
+    background: grey;
     transition: 1s;
     box-shadow: 6px 6px 0 black;
     transform: skewX(-15deg);
